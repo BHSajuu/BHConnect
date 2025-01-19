@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BHConnect
 
-## Getting Started
+BHConnect is a video calling application built using modern web technologies. It leverages the `@stream-io/video-react-sdk` for video call functionalities and is structured with React and Next.js. The application provides features for scheduling and managing video calls, including upcoming, ended, and recorded calls. The user interface is designed to be intuitive and user-friendly, ensuring a seamless experience for users.
 
-First, run the development server:
+## Features
+- **Video Calling**: Real-time video calling capabilities.
+- **Call Management**: Manage upcoming, ended, and recorded calls.
+- **User Notifications**: Toast notifications for user interactions.
+- **Responsive Design**: Optimized for various screen sizes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
+- **React**: For building the user interface.
+- **Next.js**: For server-side rendering and routing.
+- **Stream Video SDK**: For video call functionalities.
+- **TypeScript**: For type safety and better developer experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation and Setup
+1. Clone the repository:
+    git clone https://github.com/your-username/bhconnect.git
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Navigate to the project directory:
+    cd bhconnect
+3. Install dependencies: 
+    npm install
+4. Create a .env file and add your environment variables:
+    NEXT_PUBLIC_BASE_URL=http://localhost:3000
+5. Run the development server:
+    npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+# Usage
+- **Home Page**: View and manage your video calls.
+- **Call List**: Browse through upcoming, ended, and recorded calls.
+- **Meeting Card**: View details of individual calls and join or play recordings.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
